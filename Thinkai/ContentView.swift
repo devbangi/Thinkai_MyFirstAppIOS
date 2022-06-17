@@ -29,7 +29,7 @@ struct ContentView: View {
                 Spacer()
                 Image("background").resizable().aspectRatio(contentMode: .fit)
                 Label("", systemImage: "bolt.fill").padding().frame(width: 550, height: 20).background(Color.mint).lineLimit(300).font(.custom("Times New Roman", size: 20))
-                            }
+            }
         }
     }
 }
