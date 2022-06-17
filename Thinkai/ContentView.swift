@@ -15,7 +15,9 @@ struct ContentView: View {
                 Image("pete").resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0)).frame(height: 100.0).position(x: 205.9, y: 31.0).aspectRatio(contentMode: .fit)
                 Spacer()
                 Group{
-                    Button("Sing in with Facebook") {}
+                    Button("Sing in with Facebook") {
+                        
+                    }
                     Spacer()
                     Button("Sing in with Google") {}
                     Spacer()
