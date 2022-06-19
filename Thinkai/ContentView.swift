@@ -15,11 +15,26 @@ struct ContentView: View {
                 Image("pete").resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0)).frame(height: 100.0).position(x: 205.9, y: 31.0).aspectRatio(contentMode: .fit)
                 Spacer()
                 Group{
-                    Button("Sing in with Facebook") {}
+                    Button (action: {}, label: {
+                        HStack{
+                            Image("fb").resizable().aspectRatio(contentMode: .fit).frame(width: 25, height: 25)
+                            Text("Sing in with Facebook")
+                        }
+                    })
                     Spacer()
-                    Button("Sing in with Google") {}
+                    Button (action: {}, label: {
+                        HStack{
+                            Image("google").resizable().aspectRatio(contentMode: .fit).frame(width: 25, height: 25)
+                            Text("Sing in with Google")
+                        }
+                    })
                     Spacer()
-                    Button("Sing in with Email") {}
+                    Button (action: {}, label: {
+                        HStack{
+                            Image("email").resizable().aspectRatio(contentMode: .fit).frame(width: 25, height: 25)
+                            Text("Sing in with Email")
+                        }
+                    })
                 }
                 Spacer()
                 Image("background").resizable().aspectRatio(contentMode: .fit)
@@ -32,5 +47,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            
     }
 }
