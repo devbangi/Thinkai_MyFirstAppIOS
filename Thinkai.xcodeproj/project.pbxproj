@@ -11,14 +11,28 @@
 		BD88D992285C7F0300464C83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D991285C7F0300464C83 /* ContentView.swift */; };
 		BD88D994285C7F0500464C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88D993285C7F0500464C83 /* Assets.xcassets */; };
 		BD88D997285C7F0500464C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD88D996285C7F0500464C83 /* Preview Assets.xcassets */; };
+		BD88D9C228604B4E00464C83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D9C028604B4E00464C83 /* SignInViewController.swift */; };
+		BD88D9C328604B4E00464C83 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD88D9C128604B4E00464C83 /* SignInViewController.xib */; };
+		BD88D9C52860599F00464C83 /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D9C42860599F00464C83 /* RegisterUserViewController.swift */; };
+		BD88D9C728606EEC00464C83 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88D9C628606EEC00464C83 /* HomePageViewController.swift */; };
+		F338D87D9ACDB0CD93D15ED5 /* Pods_Thinkai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BB48CBE4C7B61A8593C43A /* Pods_Thinkai.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68D18C61D3E9AA3C63C79AD7 /* Pods-Thinkai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thinkai.release.xcconfig"; path = "Target Support Files/Pods-Thinkai/Pods-Thinkai.release.xcconfig"; sourceTree = "<group>"; };
 		BD88D98C285C7F0300464C83 /* Thinkai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thinkai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD88D98F285C7F0300464C83 /* ThinkaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkaiApp.swift; sourceTree = "<group>"; };
 		BD88D991285C7F0300464C83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD88D993285C7F0500464C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD88D996285C7F0500464C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD88D9BD285F725F00464C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD88D9BE285F757D00464C83 /* Thinkai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Thinkai.entitlements; sourceTree = "<group>"; };
+		BD88D9C028604B4E00464C83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BD88D9C128604B4E00464C83 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		BD88D9C42860599F00464C83 /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		BD88D9C628606EEC00464C83 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		D3A8967F9BBACED839DC5D94 /* Pods-Thinkai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thinkai.debug.xcconfig"; path = "Target Support Files/Pods-Thinkai/Pods-Thinkai.debug.xcconfig"; sourceTree = "<group>"; };
+		E9BB48CBE4C7B61A8593C43A /* Pods_Thinkai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thinkai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F338D87D9ACDB0CD93D15ED5 /* Pods_Thinkai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245FA62DC12E6515A605EAFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8967F9BBACED839DC5D94 /* Pods-Thinkai.debug.xcconfig */,
+				68D18C61D3E9AA3C63C79AD7 /* Pods-Thinkai.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86850148710A6E8E301629ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9BB48CBE4C7B61A8593C43A /* Pods_Thinkai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD88D983285C7F0300464C83 = {
 			isa = PBXGroup;
 			children = (
 				BD88D98E285C7F0300464C83 /* Thinkai */,
 				BD88D98D285C7F0300464C83 /* Products */,
+				245FA62DC12E6515A605EAFF /* Pods */,
+				86850148710A6E8E301629ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +85,17 @@
 		BD88D98E285C7F0300464C83 /* Thinkai */ = {
 			isa = PBXGroup;
 			children = (
+				BD88D9BF285F79A500464C83 /* Application Delegate */,
+				BD88D9BE285F757D00464C83 /* Thinkai.entitlements */,
+				BD88D9BD285F725F00464C83 /* Info.plist */,
 				BD88D98F285C7F0300464C83 /* ThinkaiApp.swift */,
 				BD88D991285C7F0300464C83 /* ContentView.swift */,
 				BD88D993285C7F0500464C83 /* Assets.xcassets */,
 				BD88D995285C7F0500464C83 /* Preview Content */,
+				BD88D9C028604B4E00464C83 /* SignInViewController.swift */,
+				BD88D9C128604B4E00464C83 /* SignInViewController.xib */,
+				BD88D9C42860599F00464C83 /* RegisterUserViewController.swift */,
+				BD88D9C628606EEC00464C83 /* HomePageViewController.swift */,
 			);
 			path = Thinkai;
 			sourceTree = "<group>";
@@ -67,6 +108,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BD88D9BF285F79A500464C83 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Application Delegate";
+			path = "Application Delegate/Application Delegate";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD88D99A285C7F0500464C83 /* Build configuration list for PBXNativeTarget "Thinkai" */;
 			buildPhases = (
+				09885CE0AFC6717DB1C84523 /* [CP] Check Pods Manifest.lock */,
 				BD88D988285C7F0300464C83 /* Sources */,
 				BD88D989285C7F0300464C83 /* Frameworks */,
 				BD88D98A285C7F0300464C83 /* Resources */,
+				22C64C6EE48188F35D347BCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +177,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD88D997285C7F0500464C83 /* Preview Assets.xcassets in Resources */,
+				BD88D9C328604B4E00464C83 /* SignInViewController.xib in Resources */,
 				BD88D994285C7F0500464C83 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09885CE0AFC6717DB1C84523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thinkai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22C64C6EE48188F35D347BCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thinkai/Pods-Thinkai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thinkai/Pods-Thinkai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Thinkai/Pods-Thinkai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD88D988285C7F0300464C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD88D9C52860599F00464C83 /* RegisterUserViewController.swift in Sources */,
 				BD88D992285C7F0300464C83 /* ContentView.swift in Sources */,
 				BD88D990285C7F0300464C83 /* ThinkaiApp.swift in Sources */,
+				BD88D9C728606EEC00464C83 /* HomePageViewController.swift in Sources */,
+				BD88D9C228604B4E00464C83 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +358,17 @@
 		};
 		BD88D99B285C7F0500464C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A8967F9BBACED839DC5D94 /* Pods-Thinkai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Thinkai/Thinkai.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Thinkai/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thinkai/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -289,14 +389,17 @@
 		};
 		BD88D99C285C7F0500464C83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D18C61D3E9AA3C63C79AD7 /* Pods-Thinkai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Thinkai/Thinkai.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Thinkai/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thinkai/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
